@@ -1,0 +1,15 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Tệp cấu hình
+.env
+
+# Tệp biên dịch
+dist/
+build/
+
+# Hệ thống tệp
+.DS_Store
+Thumbs.db
