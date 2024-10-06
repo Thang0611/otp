@@ -1,9 +1,9 @@
 const express = require('express');
 const imaps = require('imap-simple');
 const { simpleParser } = require('mailparser');
-
+const cors = require('cors');
 const app = express();
-
+app.use(cors());
 app.get('/otp-tele', async (req, res) => {
   const config = {
     imap: {
